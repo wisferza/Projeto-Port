@@ -1,0 +1,47 @@
+
+
+body{
+    /*Estiliza o fundo na nossa página aplicando uma cor*/
+    background-color: rgb(202, 223, 197);
+    /*Modifica a fonte da letra do meu docmento*/
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+/*abaixo estilizamos dois elementos do html ao mesmo tempo, usamos esta técnica quando ambos possuem as mesmas característias para modificção, sempre devemos lembrar de separar os elementos por vírgula(,)*/
+img{
+    width: 500px;
+    height: 500px;
+    width: fit-content;
+}
+
+.ladoalado {
+    display: flex; /*usa um layout flexível para alinhar os elementos*/
+    align-items: center; /*Alinhamento verticaal dos itens*/
+    justify-content: center; /*alinhamento horizontal dos itens*/
+    gap: 1rem; /* espaço entre os elementos*/
+}
+
+section {
+    margin: 5%; /*Define o espaço entre o limite da página web e os elementos contidos nela*/
+    padding: 2%; /*Define o espaço entre o conteúdo do site e o elemento em que ele está contido*/
+}
+
+.menu{
+    text-decoration: none; /*retira o traço abaixo do link*/
+    color:black;
+    font-weight: bold; /* Define o texto como negrito */
+    gap:10px;  
+}
+
+.menu:hover{
+    font-size: 18px;
+    color: white;
+}
+
+#inicio{
+    margin-top: 0px;
+}
+
+#perfil {
+    width: 40%;
+    height: 40%;
+}
